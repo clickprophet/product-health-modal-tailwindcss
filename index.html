@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .soft-glow {
+      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+  </style>
+  <title>Health Supplement Modal</title>
+</head>
+
+<body class="bg-gradient-to-br from-green-500 to-green-700 min-h-screen flex items-center justify-center text-white">
+  <div
+    class="p-10 m-3 md:flex-row flex flex-col items-center space-x-0 space-y-10 md:space-y-0 md:space-x-10 rounded-3xl shadow-xl bg-white/10 backdrop-blur-lg">
+    <!-- Image Container -->
+    <div class="transform transition duration-500 hover:scale-110">
+      <img src="images/health-supp-thumb.png" alt="Natural Health Supplement" class="w-48 mx-auto">
+    </div>
+    <!-- Content Area -->
+    <div class="space-y-6">
+      <!-- Label & Title -->
+      <div class="mb-4 text-center md:text-left">
+        <div class="inline-block px-3 py-1 bg-green-800 rounded-full">100% Organic</div>
+        <h1 class="mt-2 text-2xl font-bold">Natural Daily Multivitamins</h1>
+      </div>
+      <!-- Price Information -->
+      <div class="text-center md:text-left">
+        <p class="line-through opacity-50">$50</p>
+        <p class="text-4xl font-bold">$35</p>
+        <p class="text-sm font-light opacity-70">Special launch price!</p>
+      </div>
+      <!-- Add to Cart Button -->
+      <button
+        class="w-full bg-green-800 hover:bg-green-900 rounded-lg shadow-md py-4 transition duration-300 ease-in-out">
+        Add to Cart
+      </button>
+      <!-- Key Benefits -->
+      <div>
+        <h3 class="text-lg font-semibold">Key Benefits:</h3>
+        <ul class="list-disc pl-5 space-y-2">
+          <li>Boosts energy and metabolism</li>
+          <li>Supports immune system</li>
+          <li>Enhances skin and hair health</li>
+        </ul>
+      </div>
+      <!-- Additional Actions -->
+      <div class="flex space-x-4">
+        <button
+          class="flex items-center justify-center py-3 px-5 border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition-all duration-150">
+          <img src="images/five_pointed_star.svg" alt="Tree Icon" style="width: 40px; height: 40px;">
+
+          <span>Learn More</span>
+        </button>
+        <button
+          class="flex items-center justify-center py-3 px-5 border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition-all duration-150">
+          <img src="images/thicktree.svg" alt="Tree Icon" style="width: 40px; height: 40px;">
+
+          <span>Reviews</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
